@@ -33,6 +33,15 @@
   </nav>
 </header>
 
+
+<br><br><br>
+    <h2 style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">Bienvenido a la Pagina de Inicio </h2>
+
+  <header style="margin: 80px 0 20px; text-align: center;">
+            <a href="{{URL::route('inicio')}}"><img src="{{URL::asset('images/portadaWelcome.png')}}" style="width: 40%;"></a>
+        </header>
+        
+        
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
